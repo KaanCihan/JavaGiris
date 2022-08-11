@@ -2,7 +2,7 @@ package Giris;
 
 import java.util.Scanner;
 
-public class Kdv {
+public class KdvHesaplayanProgram {
     public static void main(String[] args){
 
         double kdvFiyat, kdvsizFiyat, kdv, fiyat;
