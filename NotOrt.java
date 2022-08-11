@@ -2,7 +2,7 @@ package Giris;
 
 import java.util.Scanner;
 
-public class deneme {
+public class NotOrt {
     public static void main(String[] args) {
 
         int tarih, fizik, turkce, matematik, kimya;
