@@ -8,9 +8,9 @@ public class DaireAlanCevre{
             Scanner input = new Scanner(System.in);
             double pi = 3.14, yaricap, cevre, alan, dilimYüzdesi;
 
-            System.out.println("Dairenin ya da daire diliminin cm cinsinden yarýçapýný giriniz : ");
+            System.out.print("Dairenin ya da daire diliminin cm cinsinden yarýçapýný giriniz : ");
             yaricap = input.nextDouble();
-            System.out.println("Daire dilimi deðilse 360, dilim ise açýsýný yazýnýz : ");
+            System.out.print("Daire dilimi deðilse 360, dilim ise açýsýný yazýnýz : ");
             dilimYüzdesi = input.nextDouble();
             boolean yuzde = dilimYüzdesi >= 360;
 
@@ -19,7 +19,7 @@ public class DaireAlanCevre{
             alan = pi * Math.pow(yaricap,2);
 
             System.out.println("Dairenin çevresi : " + cevre + "cm");
-            System.out.println("Dairenin alaný : " + alan * dilimYüzdesi / 360 + "cm²");
+            System.out.print("Dairenin alaný : " + alan * dilimYüzdesi / 360 + "cm²");
 
 
         }
