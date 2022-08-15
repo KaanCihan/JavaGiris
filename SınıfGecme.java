@@ -42,7 +42,7 @@ public class SınıfGecme {
 
         if(-1>= kimya | kimya >=101){
             n = n-1;
-            turkce = 0;
+            kimya = 0;
 
 
         } else;{}
