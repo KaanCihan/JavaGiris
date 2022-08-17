@@ -7,6 +7,7 @@ public class HavaSicakligi {
         int sicaklik;
 
         Scanner input = new Scanner(System.in);
+        System.out.println("Hava sýcaklýðýný giriniz : ");
         sicaklik = input.nextInt();
 
         if(5 > sicaklik ){
