@@ -20,7 +20,7 @@ public class UcVeDort {
             tekrar++;
         }
 
-        System.out.println(sum / tekrar);
+        System.out.print("Sonuç : " + sum / tekrar);
 
 
 
