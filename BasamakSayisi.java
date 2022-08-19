@@ -11,13 +11,13 @@ public class BasamakSayisi {
         n = input.nextInt();
 
         System.out.print("Girdiðiniz sayýnýn basamaklarýnýn toplamý : ");
-        int geciciN = n;
+
         while(n != 0) {
-            n /= 10;
+
             basamakSayisi++;
-            basamakToplam += geciciN % 10;
-            int c = geciciN % 10;
-            geciciN /= 10;
+            basamakToplam += n % 10;
+            int c = n % 10;
+            n /= 10;
             System.out.print(c + "+");
 
         }
