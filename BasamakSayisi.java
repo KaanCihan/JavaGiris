@@ -10,26 +10,21 @@ public class BasamakSayisi {
         System.out.print("Sayýyý giriniz : ");
         n = input.nextInt();
 
-        int tempNumber = n;
+        System.out.print("Girdiðiniz sayýnýn basamaklarýnýn toplamý : ");
+        int geciciN = n;
         while(n != 0) {
             n /= 10;
             basamakSayisi++;
-
-        }
-        System.out.println("Basamak Sayýsý : " + basamakSayisi);
-        System.out.print("Girdiðiniz sayýnýn basamaklarýnýn toplamý : ");
-
-        for (int i = 1; i <= basamakSayisi; i++) {
-
-            basamakToplam += tempNumber % 10;
-            int c = tempNumber % 10;
-            tempNumber /= 10;
-            numberCounter++;
+            basamakToplam += geciciN % 10;
+            int c = geciciN % 10;
+            geciciN /= 10;
             System.out.print(c + "+");
 
+        }
 
-    }
+
         System.out.println("\b" + " = " + basamakToplam);
+        System.out.print("Basamak Sayýsý : " + basamakSayisi);
 
 
 
