@@ -6,7 +6,7 @@ public class UcVeDort {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int a, sum = 0, x = 0;
+        int a, sum = 0, tekrar = 0;
         System.out.print("Sayýyý giriniz : ");
         a = input.nextInt();
 
@@ -17,10 +17,10 @@ public class UcVeDort {
                 continue;
             }
             sum += i;
-            x++;
+            tekrar++;
         }
 
-        System.out.println(sum / x);
+        System.out.println(sum / tekrar);
 
 
 
