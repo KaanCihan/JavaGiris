@@ -21,7 +21,7 @@ public class RecursivePower {
         alt = input.nextInt();
         System.out.print("Üssü giriniz : ");
         ust = input.nextInt();
-        System.out.print(recursivePower(alt, ust));
+        System.out.print("Sonuç : " + recursivePower(alt, ust));
 
     }
 }
