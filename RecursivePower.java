@@ -8,6 +8,8 @@ public class RecursivePower {
 
         if (us == 1)
             return taban;
+        if (us == 0)
+            return 1;
 
         return recursivePower(taban, 1) * recursivePower(taban, us - 1);
 
