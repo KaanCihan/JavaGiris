@@ -21,7 +21,7 @@ public class DizidekiElemanlarinFrekansi {
 
     public static void main(String[] args) {
 
-        int[] list = {10, 20, 20, 10, 10, 20, 5, 20};
+        int[] list = {10, 20, 20, 10, 10, 20, 5, 20, 0, 0};
         System.out.println("Dizi : " + Arrays.toString(list));
 
         for (int i = 0; i < list.length; i++) {
